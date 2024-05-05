@@ -16,7 +16,7 @@ ctypes.windll.shcore.SetProcessDpiAwareness(True)
 ##############################################################################################
 ##########################  Integrate Gemini-Pro through API  ################################
 ##############################################################################################
-GOOGLE_API_KEY = "AIzaSyC2KLKT94PLQknuqQWi_0w6p7KXG7liOYc"
+GOOGLE_API_KEY = "Enter you Api Key"
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 ##############################################################################################
